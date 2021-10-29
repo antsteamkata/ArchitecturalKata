@@ -1,11 +1,11 @@
 # Architectural Katas 2021
 
 # Requirements 
-[Farmacy Family Requirements](https://docs.google.com/document/d/1J15hGDuoyhkTn130y3MbfHGOs2sUu7mvrEtG1d9_SaE/edit)
-[Business Goals](SoftwareArchitectureDocument\Requirements\BusinessGoals.md)
-[Customer Segments]
-[Channels of Engagement]
-[Buyer Personas & Customer Journey]
+- [Farmacy Family Requirements](https://docs.google.com/document/d/1J15hGDuoyhkTn130y3MbfHGOs2sUu7mvrEtG1d9_SaE/edit)
+- [Business Goals](SoftwareArchitectureDocument\Requirements\BusinessGoals.md)
+- [Customer Segments]
+- [Channels of Engagement]
+- [Buyer Personas & Customer Journey]
 
 # Solution Architecture Document
 This document provides a comprehensive architectural overview of the Farmacy Family, using a number of different architectural Views to depict different relevant aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system:
