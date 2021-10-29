@@ -20,6 +20,7 @@ The targeted Customer groups that are addressed by the Farmacy Family, are the f
 Nevertheless, the system is designed to accommodate/configure additional Customer Segments by combining the bellow Perspectives (**e.g. Income < 27000 USD AND persons in household >=5 AND Address.Home.State is Louisiana**) or any other attributes available on the Customer Profile.
 
 | Customer Perspectives | Notes |
+| ---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Income | Gathered during the Onboarding Process<br/>range reference: https://www.federalregister.gov/documents/2021/02/01/2021-01969/annual-update-of-the-hhs-poverty-guidelines |
 | Persons in family/household | Gathered during Onboarding Process |
 | Medical condition | Gathered during Onboarding Process (e.g. Diabetes, Obesity, High cholesterol etc.) |
@@ -35,6 +36,7 @@ The following channels and touch-points are in scope for the **first Phase** of 
 Of course, the engagement channels can be extended in the future, based on analytical data/studies that reflect the customers’ behaviour in terms of healthy food.
 
 | Channel/Touch-points in scope | Description |
+| ---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Web Shop & Mobile App | - Onboarding process available on Responsive Web <br/> - Channel used for the ordering process |
 | Forum | - Channel for generating discussion topics and  building communities <br/> - Channel used for user generated content <br/> - Channel used also by Clinics, Dieticians to raise awareness |
 | Interactive media library (articles & blog) | - Channel used for raising awareness of healthy diets impact on life |
