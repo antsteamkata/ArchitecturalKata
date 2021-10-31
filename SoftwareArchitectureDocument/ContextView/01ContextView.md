@@ -7,7 +7,7 @@ The following diagrams present the solution context, namely:
 ![image](../../files/FarmacyFamilyContextView.drawio.png)
 
 ## Users and Roles
-The application is used by a list of types of Users defined in [Functional Requirements](../../SoftwareRequirementsSpecifications.md)
+The application is used by a list of types of Users defined in the [Functional Requirements](../../SoftwareRequirementsSpecifications.md) and [User Profile](UserProfile.md).
 
 ## Integrated Systems
 The systems from the Client landscape that are integrated with the Farmacy Family and their responsibilities are detailed in the [Integration View](../05IntegrationView.md).
