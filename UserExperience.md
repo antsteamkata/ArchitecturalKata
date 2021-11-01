@@ -11,6 +11,7 @@ After we have captured the information (step 4, having the consent), there will 
   - Forums
   - Interactive media library (blogs, articles etc.)
   - Courses/training Planner
+
 The entry point for the On-boarding process (email trigger after placing the order on Farmacy Food) can be extended to a lot of different touch-points, in order to persuade the customer in enrolling on Farmacy Family:
   - Email campaigns for the Transaction customers
   - Social Media campaigns
