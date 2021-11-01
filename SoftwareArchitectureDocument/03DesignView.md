@@ -34,3 +34,7 @@ The following chapter offers an overview of the data design, for creating the us
 | Further Extensions |
 |----------------|
 |Tracking the engagement also for anonymous users → important for the customer acquisition (new Clients)|
+
+
+![image](../files/FarmacyFamilyUserprofile-classDiagram.drawio.svg)
+
