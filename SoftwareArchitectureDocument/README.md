@@ -15,11 +15,7 @@ describes each integration endpoint consumed / exposed by the Farmacy Family, wi
 describes the deployment architecture, for each environment that is architecturally relevant.
 - [07. Security View](07SecurityView.md)
 describes the security best practices employed in building the Farmacy Family 
-- [08. Implementation View](08ImplementationView.md])
- describes development best practices used in building the Farmacy Family on topics like logging, exception handling, layer isolation.
-- [09. Quality View](09QualityView.md)
+- [08. Quality View](08QualityView.md)
 describes the mechanisms through which the Farmacy Family is reaching its non-functional requirements.
-- [10. Configuration View](10.ConfigurationView.md)
-this is the configuration manual of the Farmacy Family.
-- [11. ADRs](11ADRs.md)
+- [09. ADRs](09ADRs.md)
 describes the main technical decisions that were made, with the reasons and the decision makers.
