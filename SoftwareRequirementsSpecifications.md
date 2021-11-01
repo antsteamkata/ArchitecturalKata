@@ -3,22 +3,30 @@ The Software Requirements Specifications is composed from Functional Requirement
 
 ### Functional Requirements
 The functional requirements are modeled as User and/or System Stories, grouped by user/system perspective, with the purpose of building up a Backlog for the development team. Of course, the stories need to be further refined and detailed for each Sprint if we consider a SCRUM based development process. We recommend the following iterative development approach, starting with:
-  - Preparation phase: initial project planning
-  - Iterative phases, as Sprints:
-    - Explore: Backlog Prioritization, Backlog Refinement, Sprint Planning 
-    - Realize: Implementation
-    - Deploy: Deploy to QA, Testing, Deploy to PreProd, UAT, Deploy to Production
+  - **Preparation phase**: initial project planning
+  - **Iterative phases, as Sprints**:
+    - **Explore**: Backlog Prioritization, Backlog Refinement, Sprint Planning 
+    - **Realize**: Implementation
+    - **Deploy**: Deploy to QA, Testing, Deploy to PreProd, UAT, Deploy to Production
 
 ![image](files/DeliveryProcess.png)
 
+#### Users and Systems
+  - Transactional Customer
+  - Engaged Customer
+  - Campaing Manager/Content Manager
+  - Dietician
+  - Clinic
+  - Farmacy Food
+  - Farmacy Family
 
 **Farmacy Foods**
-  - The Farmacy Foods system needs to interrogate Farmacy Family in order to find out if a customer is an Engaged Customer.
-  - The Farmacy Foods system needs to send to Farmacy Family lists of Transactional Customers so the Transactional Customers can be contacted for the Farmacy Family on-boarding process.
-  - The Farmacy Foods system sends to Farmacy Family information about the orders placed by Engaged Customer so that the eating habits of the Engaged Customer can be updated in their profile and the Campaign Manager can use this information to create customer segments.
-  - The Farmacy Foods system sends to Farmacy Family comments posted for Farmacy Foods products and/or orders so that the Sentiment Analysis component can update the sentiment score attached to the users profile.
-  - The Farmacy Foods system reads from Farmacy Family information about geographical food consumption trends in order to optimize food delivery.
-  - The Farmacy Foods system reads from Farmacy Family information about food consumption statistics for Engaged Customer in order to optimize food delivery.
+  - The Farmacy Food system needs to interrogate Farmacy Family in order to find out if a customer is an Engaged Customer.
+  - The Farmacy Food system needs to send to Farmacy Family lists of Transactional Customers so the Transactional Customers can be contacted for the Farmacy Family on-boarding process.
+  - The Farmacy Food system sends to Farmacy Family information about the orders placed by Engaged Customer so that the eating habits of the Engaged Customer can be updated in their profile and the Campaign Manager can use this information to create customer segments.
+  - The Farmacy Food system sends to Farmacy Family comments posted for Farmacy Foods products and/or orders so that the Sentiment Analysis component can update the sentiment score attached to the users profile.
+  - The Farmacy Food system reads from Farmacy Family information about geographical food consumption trends in order to optimize food delivery.
+  - The Farmacy Food system reads from Farmacy Family information about food consumption statistics for Engaged Customer in order to optimize food delivery.
   - The Farmacy Family system sends to Transactional Customers, e-mail invitations to create an account on Farmacy Family as part of the on-boarding process.
   - As a Transactional Customer I can access the Farmacy Family web or mobile interface in order to create a Farmacy Family account.
   - As an Engaged Customer I can access the web or mobile Farmacy Family interface in order to update account information or settings.
