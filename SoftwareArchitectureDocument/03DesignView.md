@@ -1,4 +1,5 @@
-##User Profile
+## User Profile Design
+
 The following chapter offers an overview of the data design for creating the user profile, also used in customer segmentation and campaigns.
 
 ### Goals
