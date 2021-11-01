@@ -1,0 +1,23 @@
+## Integration View ##
+This view highlights the details of the integration between the Family Farmacy group of solutions and the other 3rd party systems like Farmacy Food, Partner Clinics, Social Media, etc.
+
+The table below contains the main integrations - which should then be later all detailed individually.
+| **Integration name** |**Information Source sytem** | **Information Target system** | **Protocol details** |**Details**|  
+|--|--|--|--|--|
+Push transactional Customer profile (in case of changes/updates)|FarmacyFood|Queue Event Data Consumers (part of FarmacyFamily) - via message queue (Amazon MQ)|AMQP (Async)|FarmacyFood notifies FarmacyFamily of important events, which could be: Customer profile update, Cart creation, Order placement (possible others).
+Fetch list of transactional Customer that are not Engaged Customers|FarmacyFood|API Event Data Consumers (part of FarmacyFamily)|HTTPS|FarmacyFamily reads list of Transactional Customers that are not yet converted into Engaged Customers.
+Fetch Engaged Customer’s medical records from a Partner Clinic.|Partner Clinics|API Event Data Consumers (part of FarmacyFamily)|HTTPS|FarmacyFamily reads (periodically) customer medical records
+Fetch List of Engaged Customers|FamilyFarmacy API|FarmacyFood|HTTPS|FarmacyFoods fetches list of Engaged Customers.
+Fetch geographical trends|FamilyFarmacy CustomerSegments Platform API|FarmacyFood|HTTPS|FamilyFoods fetches geographical trends from FamilyFarmacy CustomerSegments platform API.
+Push relevant Event: User action on Blog, User action on Forum,  User action as part of Campaign|Forum and Blog solution (joomla)|Queue Event Data Consumers (part of FarmacyFamily) - via message queue (Amazon MQ)|AMQP (Async)|Forums/Blogs notify FarmacyFamily of certain events that an EngagedCustomers perform in the Forum, which should result into a CustomerProfile update and/or to mark a Customer reacted to a Campaign.
+Push relevant Event: User action on Event, User action on Class, User action as part of Campaign|Class & Event Management Solution (moodle)|Queue Event Data Consumers (part of FarmacyFamily) - via message queue (Amazon MQ)|AMQP (Async)|Classes & Events management system notifies FarmacyFamily of certain events that an EngagedCustomers performs in the system, which should result into a CustomerProfile update and/or to mark a Customer reacted to a Campaign.
+Messaging for Engaged Customers and Dieticians|Slack|FarmacyFamily platform|HTTPS|Messaging capabilities are included in FarmacyFamily platform web pages via Slack integration
+Authentication for Engaged Customers, Dieticians, FarmacyFamily users|AWS IAM|All of the following systems are under the SSO umbrella: FarmacyFamily platform web,  CMS & Forum solution,  Class mgmt solution, Customer Data  platform, Campaign mgmt system,  Reporting system|SAML|AWS IAM will be responsible with: Authentication (incl. Social Media authentication), Authorization for Engaged Customers, Authorization for Engaged Customers
+Execute Campaign: via social media|Campaign Execution Worker|Social Media|HTTPS|Campaign Execution Worker publishes FarmacyFamily campaign messages to social media
+Execute Campaign: via email |Campaign Execution Worker|Mail Server|SMTP|Campaign Execution Worker sends out emails as part of FarmacyFamily Campaign
+Push relevant Event: User action as part of Campaign|FamilyFarmacy platform web|Queue Event Data Consumers (part of FarmacyFamily) - via message queue (Amazon MQ)|AMQP|Customer reactions to Campaign notifications (which result on customer actions on the FamilyFarmacy platform web) are used to update campaign execution results.
+**Further extensions**: Fetch customer reactions (from Forums and Blogs) for sentiment analysis|Forum and Blog solution (joomla)|Sentiment analysis solution (AWS Comprehend)|HTTPS|Data from Forum and Blog could be used for sentiment analysis, which can then later be used to update the Customer profile, for better segmentation
+**Further extensions**: Fetch customer reactions (from Classes and Events) for sentiment analysis|Class & Event Management Solution (moodle)|Sentiment analysis solution (AWS Comprehend)|HTTPS|Data from Classes and Events could be used for sentiment analysis, which can then later be used to update the Customer profile, for better segmentation
+**Further extensions**: Push sentiment analysis result for Customer|Sentiment analysis solution (AWS Comprehend)|Queue Event Data Consumers (part of FarmacyFamily) - via message queue (Amazon MQ)|AMQP|Sentiment analysis results are pushed from AWS Comprehend to the Amazon MQ and from there the message is consumed by the Queue Event Data Consumer which updated the Customer profile.
+
+
