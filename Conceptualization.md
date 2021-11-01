@@ -9,7 +9,7 @@ The scope of the Farmacy Family, in the first Phase, is described in the followi
 - **Channels of Engagement** and
 - **Engaged Customer Journey** (with possibility of growing the concept as **Further Extensions**)
 
-# Customer Segments
+### Customer Segments
 The targeted Customer groups that are addressed by the Farmacy Family, are the following:
 - low income families
 - elderly people
@@ -31,7 +31,7 @@ Nevertheless, the system is designed to accommodate/configure additional Custome
 | Sentiment analysis score | Computed by Sentiment Analysis Service |
 | Social interests and likes | Gathered by the Identity Provider System (once the customer is logged in via Facebook, if the permissions are granted, the system can collect Facebook profile information such as interests or likes) |
 
-# Channels of Engagement
+### Channels of Engagement
 The following channels and touch-points are in scope for the **first Phase** of Farmacy Family.
 Of course, the engagement channels can be extended in the future, based on analytical data/studies that reflect the customers’ behaviour in terms of healthy food.
 
@@ -50,7 +50,7 @@ As part of Further Extensions we would also recommend, as channels of engagement
 - Loyalty Program
 - Restaurants (or places where the community meets)
 
-# Engagement Customer Journey
+### The Journey to Engaged Customer
 In order for Farmacy Family to reach its objectives, as stated in previous chapters, a funnel (or multiple funnels for each customer segment) must be engineered, a funnel that reflects the **journey of a Transactional Customer to an Engaged Customer**.
 
 - **AWARENESS**: What is my audience and how to make it aware of the brand?
