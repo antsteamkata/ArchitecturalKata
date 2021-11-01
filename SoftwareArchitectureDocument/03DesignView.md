@@ -1,6 +1,8 @@
-## User Profile Design
 
-The following chapter offers an overview of the data design for creating the user profile, also used in customer segmentation and campaigns.
+The DesignView chapter is aimed to describe in detail each business entity that is used by the Farmacy Family Solution. For now, we've just described the User Profile.
+
+## User Profile Design
+The following chapter offers an overview of the data design, for creating the user profile, also used in customer segmentation and campaigns.
 
 ### Goals
 1. Have a 360 degree view of the customer in order to provide relevant and seamless content to targeted users on different channels of engagement
