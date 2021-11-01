@@ -1,8 +1,16 @@
 ## Software Requirements Specifications
-The Software Requirements Specifications is composed from Functional Requirements and Non-Functional Requiremnts describing how the Family Farmacy System will function and perform.
+The Software Requirements Specifications is composed from Functional Requirements and Non-Functional Requirements describing how the Family Farmacy System will function and perform.
 
 ### Functional Requirements
-The functional requirements are modeled as User and/or System Stories, grouped by user/system perspective, with the purpose of building up a Backlog for the development team. Of course, the stories need to be further refined and detailed for each Sprint if we consider a SCRUM development process.
+The functional requirements are modeled as User and/or System Stories, grouped by user/system perspective, with the purpose of building up a Backlog for the development team. Of course, the stories need to be further refined and detailed for each Sprint if we consider a SCRUM based development process. We recommend the following iterative development approach, starting with:
+  - Preparation phase: initial project planning
+  - Iterative phases, as Sprints:
+    - Explore: Backlog Prioritization, Backlog Refinement, Sprint Planning 
+    - Realize: Implementation
+    - Deploy: Deploy to QA, Testing, Deploy to PreProd, UAT, Deploy to Production
+
+![image](files/DeliveryProcess.png)
+
 
 **Farmacy Foods**
   - The Farmacy Foods system needs to interrogate Farmacy Family in order to find out if a customer is an Engaged Customer.
