@@ -1,7 +1,7 @@
 ## Software Requirements Specifications
 The Software Requirements Specifications is composed from Functional Requirements and Non-Functional Requiremnts describing how the Family Farmacy System will function and perform.
 
-# Functional Requirements
+### Functional Requirements
 The functional requirements are modeled as User and/or System Stories, grouped by user/system perspective, with the purpose of building up a Backlog for the development team. Of course, the stories need to be further refined and detailed for each Sprint if we consider a SCRUM development process.
 
 **Farmacy Foods**
@@ -65,6 +65,6 @@ The functional requirements are modeled as User and/or System Stories, grouped b
   - As a Campaign Manager I will be able to define and trigger Nurturing Flows to target specific Customer Segments via Campaigns  in order to attract more Farmacy Foods and Farmacy Family  customers.
   - As a Campaign Manager I will be able to visualize reports regarding Campaign interaction in order to optimize targeting of future Campaigns.
 
-# Out of Scope Functional Requirements
+#### Out of Scope Functional Requirements
 The following features are considered out of scope of the designed Solution:
 - Patient management & appointments for each Clinic is not done in the Family Farmacy solution (but rather on the Clinic’s own systems)
