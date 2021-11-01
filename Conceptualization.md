@@ -50,7 +50,7 @@ As part of Further Extensions we would also recommend, as channels of engagement
 - Loyalty Program
 - Restaurants (or places where the community meets)
 
-# Engagement Customer Journey
+# The Journey to Engaged Customer
 In order for Farmacy Family to reach its objectives, as stated in previous chapters, a funnel (or multiple funnels for each customer segment) must be engineered, a funnel that reflects the **journey of a Transactional Customer to an Engaged Customer**.
 
 - **AWARENESS**: What is my audience and how to make it aware of the brand?
