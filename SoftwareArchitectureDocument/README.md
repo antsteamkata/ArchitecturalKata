@@ -13,9 +13,7 @@ describes architecturally relevant processes executed by the Farmacy Family whic
 describes each integration endpoint consumed / exposed by the Farmacy Family, with relevant details (protocol, format, samples)
 - [06. Deployment View](06DeploymentView.md)
 describes the deployment architecture, for each environment that is architecturally relevant.
-- [07. Security View](07SecurityView.md)
-describes the security best practices employed in building the Farmacy Family 
-- [08. Quality View](08QualityView.md)
+- [08. Quality View](07QualityView.md)
 describes the mechanisms through which the Farmacy Family is reaching its non-functional requirements.
-- [09. ADRs](09ADRs.md)
+- [09. ADRs](08ADRs.md)
 describes the main technical decisions that were made, with the reasons and the decision makers.
