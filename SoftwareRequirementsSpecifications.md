@@ -1,5 +1,5 @@
 ## Software Requirements Specifications
-The Software Requirements Specifications is composed from Functional Requirements and Non-Functional Requirements describing how the Family Farmacy System will function and perform.
+The Software Requirements Specifications is composed from Functional Requirements and Non-Functional Requirements (detailed as part of the [Quality View](./SoftwareArchitectureDocument/07QualityView.md) ) describing how the Family Farmacy System will function and perform.
 
 ### Functional Requirements
 The functional requirements are modeled as User and/or System Stories, grouped by user/system perspective, with the purpose of building up a Backlog for the development team. Of course, the stories need to be further refined and detailed for each Sprint if we consider a SCRUM based development process. We recommend the following iterative development approach, starting with:
