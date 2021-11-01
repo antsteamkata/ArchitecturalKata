@@ -1,7 +1,7 @@
 # Solution Architecture Document
 This document provides a comprehensive architectural overview of the Farmacy Family, using a number of different architectural Views to depict different relevant aspects of the system. It is intended to capture and convey the significant architectural decisions which have been made on the system:
 
-- [01. Context View](ContextView/01ContextView.md)
+- [01. Context View](01ContextView.md)
 describes where is the Farmacy Family fitting in the Client’s landscape, highlighting the Actors that interact with the Solution and the integrations. It’s a high-level view.
 - [02. Logical View](02LogicalView.md)
 describes the logical components of the Farmcy Family (i.e. the architecturally relevant parts, the layers, the high-level modules)
