@@ -22,7 +22,7 @@ The following chapter offers an overview of the data design for creating the use
 |Social Media|Facebook Login<br/><ul><li>Likes</li><li>Interest</li><li>Photo</li><li>Facebook Id</li></ul>Social Engagement (Family Food Page)<br/><ul><li>Likes</li><li>Comments</li></ul>|push |email |Compute social engagement score
 |Planning System||pull | email |
 |Partner Clinics| Medical Record History<br/><ul><li>Records containing the medical evaluation results (and range)</li><li>National Provider Identifier</li></ul>Consent|pull|MRN (medical record number)|Health score
-|Partner Dieticians||pull | MRN (medical record number)|
+|Partner Dieticians|Preffered Dietician|pull | email|
 |Farmacy Food|Topics Consent||||
 |Farmacy Food|Associated Customer segments||||
 |Farmacy Food|Active nurturing workflow||||
