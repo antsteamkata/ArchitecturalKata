@@ -14,6 +14,7 @@ It’s important to point out that some of these need to be discussed with the c
 | joomla | Drupal, Wordpress | Joomla was selected as it’s free, simple customizable CMS solution, available on-premise (and also installable in AWS), with support for Blogs and Forums. | Architecture Team | FamilyFarmacy Team |
 | Customer Profile data (incl. medical records) are not saved into the Campaign Management Solution persistence layer, but rather are kept in the FamilyFarmacy platform database. | The Customer profile data (incl. medical records) are stored directly in the Campaign Management system’s database. | The decision was made to keep Customer Profile data separated from the Campaign System because:</br>- it deals with sensitive data (medical records) that should remain local to the solution in AWS and not exported to yet another Cloud solution</br>- the Customer Profile data is custom-made and should be enhanceable in time and should not be dependent on the Campaign Management solution’s data model</br>- keeping this data isolated from the Campaign Mgmt system should facilitate for HIPAA compliance | Architecture Team | Architecture Team |
 
+
 ## Open Points
 The following points are still open as the team requires either more details, or more time or a larger audience to close these.
 
