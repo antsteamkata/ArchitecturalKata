@@ -1,3 +1,4 @@
+## Design View
 
 The DesignView chapter is aimed to describe in detail each business entity that is used by the Farmacy Family Solution. For now, we've just described the User Profile.
 
