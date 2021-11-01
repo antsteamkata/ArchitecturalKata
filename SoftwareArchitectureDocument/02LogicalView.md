@@ -16,3 +16,5 @@ The Family Farmacy solution contains the following parts:
 
 For future extensions:
 - **Sentiment Analysis solution** - to make campaigns more efficient, it would be beneficial to include in the Customer profile an evaluation of the Customer’s sentiment on certain topics. This will be done via a sentiment analysis solution (based on Amazon Comprehend).
+
+![image](../../files/FarmacyFamilyLogicalView.drawio.svg)
