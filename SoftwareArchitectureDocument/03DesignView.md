@@ -20,7 +20,7 @@ The following chapter offers an overview of the data design for creating the use
 |Farmacy Food|Transactional Customer Data<br/><ul><li>First name, last name</li><li>Email Address</li><li>Age</li><li>Addresses e.g. Work, Home, etc.</li><li>Preferred SmartFrdige Location/Addresses</li><li>Order history</li><li>Income</li><li>Household (no. of people in family)</li></ul> |push |email
 |Forum|Engagement Score<br/><ul><li>Forum User Rating</li><li>Subscribed topics - Conversation threads</li></ul> |pull |email |Sentiment analysis based on conversation threads
 |Social Media|Facebook Login<br/><ul><li>Likes</li><li>Interest</li><li>Photo</li><li>Facebook Id</li></ul>Social Engagement (Family Food Page)<br/><ul><li>Likes</li><li>Comments</li></ul>|push |email |Compute social engagement score
-|Planning System||pull | email |
+|Planning System|<ul><li>Subscribed courses, trainings</li><li>Attendance</li></ul>|pull | email |
 |Partner Clinics| Medical Record History<br/><ul><li>Records containing the medical evaluation results (and range)</li><li>National Provider Identifier</li></ul>Consent|pull|MRN (medical record number)|Health score
 |Partner Dieticians|Preffered Dietician|pull | email|
 |Farmacy Food|Topics Consent||||
