@@ -4,7 +4,7 @@ The following diagrams present the solution context, namely:
 - the list of users along with the channels they are interacting on
 - how would the **Farmacy Family** fit into the Client’s architectural landscape and the systems it has to integrate with
 
-![image](../../files/FarmacyFamilyContextView1.drawio.png)
+![image](../../files/FarmacyFamilyContextView.drawio.svg)
 
 ## Users and Roles
 The application is used by a list of types of Users defined in the [Functional Requirements](../../SoftwareRequirementsSpecifications.md).
